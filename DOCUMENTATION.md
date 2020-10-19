@@ -281,7 +281,7 @@ authentication, you need to set the PAM authentication service with the
 `-o auth-service=SERVICE` option.  For example, to use the "cups" PAM service
 with LPrint, run:
 
-    lprint server -o server-name=HOSTNAME -o server-port=NNN -o auth-service=cups
+    lprint -o server-name=HOSTNAME -o server-port=NNN -o auth-service=cups
 
 By default, any user can authenticate web interface operations.  To restrict
 access to a particular UNIX group, use the `-o admin-group=GROUP` option as
